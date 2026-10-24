@@ -37,22 +37,28 @@ Windows:
 ```bash
 python -m venv .venv
 Aktifkan Virtual Environment
+```
 
-Bash
+```Bash
 .\.venv\Scripts\Activate.ps1
+```
 Jika berhasil, terminal akan menampilkan (.venv) di awal baris perintah.
 
 Instal Library
 Pastikan file requirements.txt berada di folder utama proyek, kemudian jalankan:
 
-Bash
+```Bash
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+```
+
 Menjalankan Dashboard Secara Lokal
 Dari folder utama proyek bike, jalankan:
 
-Bash
+```Bash
 python -m streamlit run dashboard/dashboard.py
+```
+
 Dashboard Online
 Dashboard dapat diakses melalui tautan berikut:
 
