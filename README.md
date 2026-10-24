@@ -62,7 +62,7 @@ python -m streamlit run dashboard/dashboard.py
 Dashboard Online
 Dashboard dapat diakses melalui tautan berikut:
 
-https://bike-sharing-dicoding-4b6hltlrxwk3j6kdfkbbwy.streamlit.app/
+https://bike-sharing-analysis-mlwmicckp3zmvxvvaph5rw.streamlit.app/
 
 Teknologi yang Digunakan
 Python
