@@ -28,11 +28,34 @@ Tahapan analisis yang dilakukan meliputi:
 
 ## Menjalankan Dashboard
 
-Pastikan Python sudah terinstal, kemudian jalankan perintah berikut di terminal:
+1. Buka Terminal
 
-```bash
-pip install -r requirements.txt
-streamlit run dashboard.py
+Buka terminal atau PowerShell di folder utama proyek bike.
+
+2. Buat Virtual Environment
+
+Windows:
+
+python -m venv .venv
+
+3. Aktifkan Virtual Environment
+
+.\.venv\Scripts\Activate.ps1
+
+Jika berhasil, terminal akan menampilkan (.venv) di awal baris perintah.
+
+4. Instal Library
+
+Pastikan file requirements.txt berada di folder utama proyek, kemudian jalankan:
+
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+
+Menjalankan Dashboard Secara Lokal
+
+Dari folder utama proyek bike, jalankan:
+
+python -m streamlit run dashboard/dashboard.py
 ```
 
 ## Dashboard Online
