@@ -12,9 +12,10 @@ st.set_page_config(
 # Load dan Cache Data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("all_data.csv")
+    # Karena dashboard.py dan all_data.csv ada di folder yang sama (dashboard/)
+    df = pd.read_csv("dashboard/all_data.csv") 
     df["dteday"] = pd.to_datetime(df["dteday"])
-    
+
     # Memastikan kolom kategori musim dan jenis hari sudah sesuai
     df["season_name"] = df["season"]
     df["day_type"] = df["workingday"]
