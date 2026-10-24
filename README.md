@@ -65,12 +65,10 @@ Dashboard dapat diakses melalui tautan berikut:
 https://bike-sharing-analysis-mlwmicckp3zmvxvvaph5rw.streamlit.app/
 
 Teknologi yang Digunakan
+
 Python
-
 Pandas
-
 Matplotlib
-
 Streamlit
 
 Author
