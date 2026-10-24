@@ -1,1 +1,1 @@
-https://bike-sharing-dicoding-4b6hltlrxwk3j6kdfkbbwy.streamlit.app/
+https://bike-sharing-analysis-mlwmicckp3zmvxvvaph5rw.streamlit.app/
