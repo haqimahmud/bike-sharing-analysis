@@ -1,3 +1,4 @@
+Markdown
 # Proyek Analisis Data: Bike Sharing
 
 ## Deskripsi
@@ -29,47 +30,42 @@ Tahapan analisis yang dilakukan meliputi:
 ## Menjalankan Dashboard
 
 1. Buka Terminal
-
 Buka terminal atau PowerShell di folder utama proyek bike.
 
 2. Buat Virtual Environment
-
 Windows:
-
+```bash
 python -m venv .venv
+Aktifkan Virtual Environment
 
-3. Aktifkan Virtual Environment
-
+Bash
 .\.venv\Scripts\Activate.ps1
-
 Jika berhasil, terminal akan menampilkan (.venv) di awal baris perintah.
 
-4. Instal Library
-
+Instal Library
 Pastikan file requirements.txt berada di folder utama proyek, kemudian jalankan:
 
+Bash
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-
 Menjalankan Dashboard Secara Lokal
-
 Dari folder utama proyek bike, jalankan:
 
+Bash
 python -m streamlit run dashboard/dashboard.py
-
-## Dashboard Online
-
+Dashboard Online
 Dashboard dapat diakses melalui tautan berikut:
 
 https://bike-sharing-dicoding-4b6hltlrxwk3j6kdfkbbwy.streamlit.app/
 
-## Teknologi yang Digunakan
+Teknologi yang Digunakan
+Python
 
-- Python
-- Pandas
-- Matplotlib
-- Streamlit
+Pandas
 
-## Author
+Matplotlib
 
+Streamlit
+
+Author
 Baihaqi Alwi Mahmudi
